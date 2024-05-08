@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" modified="2024-05-08T09:22:46.802Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="GBSAs0zqjl0Hve65LZyN" version="24.3.1" type="github">
+  <diagram name="miningworkflow" id="3J1K3kk3U_pk_pzTgoC_">
+    <mxGraphModel dx="2109" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kpYyH4CZ8bebxXl8eGDB-1" target="kpYyH4CZ8bebxXl8eGDB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-1" value="official smh/qubic code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="160" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kpYyH4CZ8bebxXl8eGDB-2" target="kpYyH4CZ8bebxXl8eGDB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kpYyH4CZ8bebxXl8eGDB-2" target="kpYyH4CZ8bebxXl8eGDB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kpYyH4CZ8bebxXl8eGDB-2" target="kpYyH4CZ8bebxXl8eGDB-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-2" value="docker image and push into Package" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kpYyH4CZ8bebxXl8eGDB-3" target="kpYyH4CZ8bebxXl8eGDB-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-3" value="CI/build code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-4" value="Cloud service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-6" value="Clore.AI/OCTA/Swan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kpYyH4CZ8bebxXl8eGDB-8" target="kpYyH4CZ8bebxXl8eGDB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-8" value="useful tools&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kpYyH4CZ8bebxXl8eGDB-9" target="kpYyH4CZ8bebxXl8eGDB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-9" value="monitor tools" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kpYyH4CZ8bebxXl8eGDB-12" target="kpYyH4CZ8bebxXl8eGDB-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-12" value="CI/build code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kpYyH4CZ8bebxXl8eGDB-14" target="kpYyH4CZ8bebxXl8eGDB-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-14" value="CI/build code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kpYyH4CZ8bebxXl8eGDB-16" target="kpYyH4CZ8bebxXl8eGDB-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-16" value="docker / compose" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpYyH4CZ8bebxXl8eGDB-21" value="metal machines" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
