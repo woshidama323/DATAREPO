@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T07:10:58.704Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="aGBK9eBSzw7glzfYXEWO" version="24.4.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-06-05T07:13:48.301Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="vQTp3NBk3Z_wligGZTn3" version="24.4.13" type="github" pages="5">
   <diagram name="miningworkflow" id="3J1K3kk3U_pk_pzTgoC_">
     <mxGraphModel dx="2109" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -315,11 +315,49 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="wyY91c1OlDM6ZDHqnL6p" name="Page-5">
-    <mxGraphModel dx="1259" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="wyY91c1OlDM6ZDHqnL6p" name="github-work-flow">
+    <mxGraphModel dx="2109" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FxZu3D916i_asPg3F1CK-4" value="max1015070108" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="20" width="820" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="FxZu3D916i_asPg3F1CK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FxZu3D916i_asPg3F1CK-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="147.5" y="210" as="sourcePoint" />
+            <mxPoint x="490" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxZu3D916i_asPg3F1CK-5" value="actions/rust.yml" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FxZu3D916i_asPg3F1CK-3">
+          <mxGeometry x="-0.2571" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxZu3D916i_asPg3F1CK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FxZu3D916i_asPg3F1CK-1" target="FxZu3D916i_asPg3F1CK-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxZu3D916i_asPg3F1CK-8" value="actions/docker.yml" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FxZu3D916i_asPg3F1CK-7">
+          <mxGeometry x="-0.2186" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FxZu3D916i_asPg3F1CK-1" value="fork repo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FxZu3D916i_asPg3F1CK-2" value="release" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FxZu3D916i_asPg3F1CK-6" value="docker image" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
