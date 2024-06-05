@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-10T08:31:41.455Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="bQh5rTkXulJlIkz6pWOU" version="24.3.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-05T07:10:58.704Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="aGBK9eBSzw7glzfYXEWO" version="24.4.13" type="github" pages="5">
   <diagram name="miningworkflow" id="3J1K3kk3U_pk_pzTgoC_">
     <mxGraphModel dx="2109" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -312,6 +312,14 @@
         <mxCell id="MgpBced8UhODXdI7eE5C-59" value="需求，根据CPU性能 IO RAM大小，决定spacemesh的数量&lt;br&gt;监控spacemesh节点的进程使用情况，内存，IO，CPU等数据，&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="210" y="670" width="360" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wyY91c1OlDM6ZDHqnL6p" name="Page-5">
+    <mxGraphModel dx="1259" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
