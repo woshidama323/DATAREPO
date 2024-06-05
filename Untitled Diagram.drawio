@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T07:13:48.301Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="vQTp3NBk3Z_wligGZTn3" version="24.4.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-06-05T07:14:34.197Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="331x_E0AstkKgTBYRaw4" version="24.4.13" type="github" pages="5">
   <diagram name="miningworkflow" id="3J1K3kk3U_pk_pzTgoC_">
     <mxGraphModel dx="2109" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -352,11 +352,20 @@
         <mxCell id="FxZu3D916i_asPg3F1CK-1" value="fork repo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="270" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="FxZu3D916i_asPg3F1CK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FxZu3D916i_asPg3F1CK-2" target="FxZu3D916i_asPg3F1CK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FxZu3D916i_asPg3F1CK-2" value="release" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="190" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="FxZu3D916i_asPg3F1CK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FxZu3D916i_asPg3F1CK-6" target="FxZu3D916i_asPg3F1CK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FxZu3D916i_asPg3F1CK-6" value="docker image" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FxZu3D916i_asPg3F1CK-9" value="deploy to machine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
